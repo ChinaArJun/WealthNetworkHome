@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15026D8C1D309CA300C2AE94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026D8B1D309CA300C2AE94 /* main.m */; };
+		15026D8F1D309CA300C2AE94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026D8E1D309CA300C2AE94 /* AppDelegate.m */; };
+		15026D981D309CA300C2AE94 /* WealthNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15026D961D309CA300C2AE94 /* WealthNetwork.xcdatamodeld */; };
+		15026D9A1D309CA300C2AE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15026D991D309CA300C2AE94 /* Assets.xcassets */; };
+		15026D9D1D309CA300C2AE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15026D9B1D309CA300C2AE94 /* LaunchScreen.storyboard */; };
+		15026DAD1D30A57F00C2AE94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DAC1D30A57F00C2AE94 /* ViewController.m */; };
+		15026DB41D30A68800C2AE94 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DB21D30A68800C2AE94 /* CollectionViewCell.m */; };
+		15026DB51D30A68800C2AE94 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15026DB31D30A68800C2AE94 /* CollectionViewCell.xib */; };
+		15026DBC1D30AA5200C2AE94 /* EditCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DBA1D30AA5200C2AE94 /* EditCollectionReusableView.m */; };
+		15026DBD1D30AA5200C2AE94 /* EditCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15026DBB1D30AA5200C2AE94 /* EditCollectionReusableView.xib */; };
+		15026DBF1D30B36900C2AE94 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15026DBE1D30B36900C2AE94 /* friends.plist */; };
+		15026DC41D30B3DE00C2AE94 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DC11D30B3DE00C2AE94 /* Friend.m */; };
+		15026DC51D30B3DE00C2AE94 /* FriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DC31D30B3DE00C2AE94 /* FriendGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15026D871D309CA300C2AE94 /* WealthNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15026D8B1D309CA300C2AE94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15026D8D1D309CA300C2AE94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15026D8E1D309CA300C2AE94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15026D971D309CA300C2AE94 /* WealthNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WealthNetwork.xcdatamodel; sourceTree = "<group>"; };
+		15026D991D309CA300C2AE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		15026D9C1D309CA300C2AE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15026D9E1D309CA300C2AE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		15026DAB1D30A57F00C2AE94 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15026DAC1D30A57F00C2AE94 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15026DB11D30A68800C2AE94 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		15026DB21D30A68800C2AE94 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		15026DB31D30A68800C2AE94 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		15026DB91D30AA5200C2AE94 /* EditCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCollectionReusableView.h; sourceTree = "<group>"; };
+		15026DBA1D30AA5200C2AE94 /* EditCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCollectionReusableView.m; sourceTree = "<group>"; };
+		15026DBB1D30AA5200C2AE94 /* EditCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditCollectionReusableView.xib; sourceTree = "<group>"; };
+		15026DBE1D30B36900C2AE94 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		15026DC01D30B3DE00C2AE94 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		15026DC11D30B3DE00C2AE94 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		15026DC21D30B3DE00C2AE94 /* FriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGroup.h; sourceTree = "<group>"; };
+		15026DC31D30B3DE00C2AE94 /* FriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15026D841D309CA300C2AE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15026D7E1D309CA300C2AE94 = {
+			isa = PBXGroup;
+			children = (
+				15026D891D309CA300C2AE94 /* WealthNetwork */,
+				15026D881D309CA300C2AE94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15026D881D309CA300C2AE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15026D871D309CA300C2AE94 /* WealthNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15026D891D309CA300C2AE94 /* WealthNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				15026D8D1D309CA300C2AE94 /* AppDelegate.h */,
+				15026D8E1D309CA300C2AE94 /* AppDelegate.m */,
+				15026DA41D30A55700C2AE94 /* Controller */,
+				15026DA51D30A55700C2AE94 /* Model */,
+				15026DA71D30A55700C2AE94 /* View */,
+				15026DA61D30A55700C2AE94 /* Other */,
+				15026D8A1D309CA300C2AE94 /* Supporting Files */,
+			);
+			path = WealthNetwork;
+			sourceTree = "<group>";
+		};
+		15026D8A1D309CA300C2AE94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15026D8B1D309CA300C2AE94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15026DA41D30A55700C2AE94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15026DAB1D30A57F00C2AE94 /* ViewController.h */,
+				15026DAC1D30A57F00C2AE94 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15026DA51D30A55700C2AE94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15026DC01D30B3DE00C2AE94 /* Friend.h */,
+				15026DC11D30B3DE00C2AE94 /* Friend.m */,
+				15026DC21D30B3DE00C2AE94 /* FriendGroup.h */,
+				15026DC31D30B3DE00C2AE94 /* FriendGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15026DA61D30A55700C2AE94 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				15026DBE1D30B36900C2AE94 /* friends.plist */,
+				15026D991D309CA300C2AE94 /* Assets.xcassets */,
+				15026D9B1D309CA300C2AE94 /* LaunchScreen.storyboard */,
+				15026D9E1D309CA300C2AE94 /* Info.plist */,
+				15026D961D309CA300C2AE94 /* WealthNetwork.xcdatamodeld */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		15026DA71D30A55700C2AE94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15026DB11D30A68800C2AE94 /* CollectionViewCell.h */,
+				15026DB21D30A68800C2AE94 /* CollectionViewCell.m */,
+				15026DB31D30A68800C2AE94 /* CollectionViewCell.xib */,
+				15026DB91D30AA5200C2AE94 /* EditCollectionReusableView.h */,
+				15026DBA1D30AA5200C2AE94 /* EditCollectionReusableView.m */,
+				15026DBB1D30AA5200C2AE94 /* EditCollectionReusableView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15026D861D309CA300C2AE94 /* WealthNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15026DA11D309CA300C2AE94 /* Build configuration list for PBXNativeTarget "WealthNetwork" */;
+			buildPhases = (
+				15026D831D309CA300C2AE94 /* Sources */,
+				15026D841D309CA300C2AE94 /* Frameworks */,
+				15026D851D309CA300C2AE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WealthNetwork;
+			productName = WealthNetwork;
+			productReference = 15026D871D309CA300C2AE94 /* WealthNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15026D7F1D309CA300C2AE94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ArJun;
+				TargetAttributes = {
+					15026D861D309CA300C2AE94 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 15026D821D309CA300C2AE94 /* Build configuration list for PBXProject "WealthNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15026D7E1D309CA300C2AE94;
+			productRefGroup = 15026D881D309CA300C2AE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15026D861D309CA300C2AE94 /* WealthNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15026D851D309CA300C2AE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15026D9D1D309CA300C2AE94 /* LaunchScreen.storyboard in Resources */,
+				15026D9A1D309CA300C2AE94 /* Assets.xcassets in Resources */,
+				15026DB51D30A68800C2AE94 /* CollectionViewCell.xib in Resources */,
+				15026DBD1D30AA5200C2AE94 /* EditCollectionReusableView.xib in Resources */,
+				15026DBF1D30B36900C2AE94 /* friends.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15026D831D309CA300C2AE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15026D981D309CA300C2AE94 /* WealthNetwork.xcdatamodeld in Sources */,
+				15026DC41D30B3DE00C2AE94 /* Friend.m in Sources */,
+				15026DB41D30A68800C2AE94 /* CollectionViewCell.m in Sources */,
+				15026D8F1D309CA300C2AE94 /* AppDelegate.m in Sources */,
+				15026DC51D30B3DE00C2AE94 /* FriendGroup.m in Sources */,
+				15026D8C1D309CA300C2AE94 /* main.m in Sources */,
+				15026DAD1D30A57F00C2AE94 /* ViewController.m in Sources */,
+				15026DBC1D30AA5200C2AE94 /* EditCollectionReusableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15026D9B1D309CA300C2AE94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15026D9C1D309CA300C2AE94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15026D9F1D309CA300C2AE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15026DA01D309CA300C2AE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15026DA21D309CA300C2AE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WealthNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.ChinaArJun.WealthNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15026DA31D309CA300C2AE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WealthNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.ChinaArJun.WealthNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15026D821D309CA300C2AE94 /* Build configuration list for PBXProject "WealthNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15026D9F1D309CA300C2AE94 /* Debug */,
+				15026DA01D309CA300C2AE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15026DA11D309CA300C2AE94 /* Build configuration list for PBXNativeTarget "WealthNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15026DA21D309CA300C2AE94 /* Debug */,
+				15026DA31D309CA300C2AE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15026D961D309CA300C2AE94 /* WealthNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15026D971D309CA300C2AE94 /* WealthNetwork.xcdatamodel */,
+			);
+			currentVersion = 15026D971D309CA300C2AE94 /* WealthNetwork.xcdatamodel */;
+			name = WealthNetwork.xcdatamodeld;
+			path = ../WealthNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15026D7F1D309CA300C2AE94 /* Project object */;
+}
