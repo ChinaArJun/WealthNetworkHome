@@ -5,8 +5,5 @@
    
    // 实现的效果
    
-   ![12](https://github.com/ChinaArJun/WealthNetworkHome/blob/master/实现的效果.gif)
-   
-   // 原本需求
-   
-   ![12](https://github.com/ChinaArJun/WealthNetworkHome/blob/master/需求.png)
+   ![12](https://github.com/ChinaArJun/WealthNetworkHome/blob/master/test1.gif)
+
