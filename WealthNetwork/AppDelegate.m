@@ -21,13 +21,16 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[UINavigationController alloc]
                                       initWithRootViewController:[ViewController new]];
+    [self bulidNavigation];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+- (void)bulidNavigation{
     NSDictionary *navTitleArr = [NSDictionary dictionaryWithObjectsAndKeys:
-                                 [UIColor whiteColor],UITextAttributeTextColor, nil];
+                                 [UIColor whiteColor],NSForegroundColorAttributeName, nil];
     [[UINavigationBar appearance] setTitleTextAttributes:navTitleArr];
     [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
-    [self.window makeKeyAndVisible];
-    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

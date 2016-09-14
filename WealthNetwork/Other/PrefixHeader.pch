@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  WealthNetwork
+//
+//  Created by ArJun on 16/9/5.
+//  Copyright © 2016年 ArJun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry.h>
+#import "UIView+Extension.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+
+#endif /* PrefixHeader_pch */

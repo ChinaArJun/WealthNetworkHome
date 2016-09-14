@@ -12,14 +12,23 @@
 		15026D981D309CA300C2AE94 /* WealthNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15026D961D309CA300C2AE94 /* WealthNetwork.xcdatamodeld */; };
 		15026D9A1D309CA300C2AE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15026D991D309CA300C2AE94 /* Assets.xcassets */; };
 		15026D9D1D309CA300C2AE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15026D9B1D309CA300C2AE94 /* LaunchScreen.storyboard */; };
-		15026DAD1D30A57F00C2AE94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DAC1D30A57F00C2AE94 /* ViewController.m */; };
-		15026DB41D30A68800C2AE94 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DB21D30A68800C2AE94 /* CollectionViewCell.m */; };
-		15026DB51D30A68800C2AE94 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15026DB31D30A68800C2AE94 /* CollectionViewCell.xib */; };
-		15026DBC1D30AA5200C2AE94 /* EditCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DBA1D30AA5200C2AE94 /* EditCollectionReusableView.m */; };
-		15026DBD1D30AA5200C2AE94 /* EditCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15026DBB1D30AA5200C2AE94 /* EditCollectionReusableView.xib */; };
 		15026DBF1D30B36900C2AE94 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15026DBE1D30B36900C2AE94 /* friends.plist */; };
-		15026DC41D30B3DE00C2AE94 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DC11D30B3DE00C2AE94 /* Friend.m */; };
-		15026DC51D30B3DE00C2AE94 /* FriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026DC31D30B3DE00C2AE94 /* FriendGroup.m */; };
+		150E938C1D7DB99500B42574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E937A1D7DB99500B42574 /* ViewController.m */; };
+		150E938D1D7DB99500B42574 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E937D1D7DB99500B42574 /* Friend.m */; };
+		150E938E1D7DB99500B42574 /* FriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E937F1D7DB99500B42574 /* FriendGroup.m */; };
+		150E938F1D7DB99500B42574 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93821D7DB99500B42574 /* CollectionViewCell.m */; };
+		150E93901D7DB99500B42574 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150E93831D7DB99500B42574 /* CollectionViewCell.xib */; };
+		150E93911D7DB99500B42574 /* EditCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93851D7DB99500B42574 /* EditCollectionReusableView.m */; };
+		150E93921D7DB99500B42574 /* EditCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150E93861D7DB99500B42574 /* EditCollectionReusableView.xib */; };
+		150E939C1D7DB9C400B42574 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93971D7DB9C400B42574 /* LeftViewController.m */; };
+		150E93A31D7DBA4400B42574 /* ProfileHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93A21D7DBA4400B42574 /* ProfileHeadView.m */; };
+		150E93D81D7DC6C900B42574 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93C51D7DC6C900B42574 /* BaseTableViewController.m */; };
+		150E93D91D7DC6C900B42574 /* ProfileCellArrowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93C91D7DC6C900B42574 /* ProfileCellArrowModel.m */; };
+		150E93DA1D7DC6C900B42574 /* ProfileCellGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93CB1D7DC6C900B42574 /* ProfileCellGroupModel.m */; };
+		150E93DB1D7DC6C900B42574 /* ProfileCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93CD1D7DC6C900B42574 /* ProfileCellModel.m */; };
+		150E93DD1D7DC6C900B42574 /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93D31D7DC6C900B42574 /* ProfileCell.m */; };
+		150E93E21D7DC70C00B42574 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E93E11D7DC70C00B42574 /* UIView+Extension.m */; };
+		1E5EA08D3404E41FECB0499B /* libPods-WealthNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4259DC17188B63E61BC5701 /* libPods-WealthNetwork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,19 +40,39 @@
 		15026D991D309CA300C2AE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		15026D9C1D309CA300C2AE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15026D9E1D309CA300C2AE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		15026DAB1D30A57F00C2AE94 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15026DAC1D30A57F00C2AE94 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		15026DB11D30A68800C2AE94 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		15026DB21D30A68800C2AE94 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		15026DB31D30A68800C2AE94 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		15026DB91D30AA5200C2AE94 /* EditCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCollectionReusableView.h; sourceTree = "<group>"; };
-		15026DBA1D30AA5200C2AE94 /* EditCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCollectionReusableView.m; sourceTree = "<group>"; };
-		15026DBB1D30AA5200C2AE94 /* EditCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditCollectionReusableView.xib; sourceTree = "<group>"; };
 		15026DBE1D30B36900C2AE94 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
-		15026DC01D30B3DE00C2AE94 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
-		15026DC11D30B3DE00C2AE94 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
-		15026DC21D30B3DE00C2AE94 /* FriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGroup.h; sourceTree = "<group>"; };
-		15026DC31D30B3DE00C2AE94 /* FriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGroup.m; sourceTree = "<group>"; };
+		150E93711D7DADC100B42574 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		150E93791D7DB99500B42574 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		150E937A1D7DB99500B42574 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		150E937C1D7DB99500B42574 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		150E937D1D7DB99500B42574 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		150E937E1D7DB99500B42574 /* FriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGroup.h; sourceTree = "<group>"; };
+		150E937F1D7DB99500B42574 /* FriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGroup.m; sourceTree = "<group>"; };
+		150E93811D7DB99500B42574 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		150E93821D7DB99500B42574 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		150E93831D7DB99500B42574 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		150E93841D7DB99500B42574 /* EditCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCollectionReusableView.h; sourceTree = "<group>"; };
+		150E93851D7DB99500B42574 /* EditCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCollectionReusableView.m; sourceTree = "<group>"; };
+		150E93861D7DB99500B42574 /* EditCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditCollectionReusableView.xib; sourceTree = "<group>"; };
+		150E93961D7DB9C400B42574 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		150E93971D7DB9C400B42574 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		150E93A11D7DBA4400B42574 /* ProfileHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileHeadView.h; sourceTree = "<group>"; };
+		150E93A21D7DBA4400B42574 /* ProfileHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileHeadView.m; sourceTree = "<group>"; };
+		150E93C41D7DC6C900B42574 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		150E93C51D7DC6C900B42574 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		150E93C81D7DC6C900B42574 /* ProfileCellArrowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCellArrowModel.h; sourceTree = "<group>"; };
+		150E93C91D7DC6C900B42574 /* ProfileCellArrowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCellArrowModel.m; sourceTree = "<group>"; };
+		150E93CA1D7DC6C900B42574 /* ProfileCellGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCellGroupModel.h; sourceTree = "<group>"; };
+		150E93CB1D7DC6C900B42574 /* ProfileCellGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCellGroupModel.m; sourceTree = "<group>"; };
+		150E93CC1D7DC6C900B42574 /* ProfileCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCellModel.h; sourceTree = "<group>"; };
+		150E93CD1D7DC6C900B42574 /* ProfileCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCellModel.m; sourceTree = "<group>"; };
+		150E93D21D7DC6C900B42574 /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		150E93D31D7DC6C900B42574 /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
+		150E93E01D7DC70C00B42574 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		150E93E11D7DC70C00B42574 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B26DF141F21CE96235C29F85 /* Pods-WealthNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WealthNetwork/Pods-WealthNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		D4259DC17188B63E61BC5701 /* libPods-WealthNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24EE00E51E416D56410C1FF /* Pods-WealthNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-WealthNetwork/Pods-WealthNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5EA08D3404E41FECB0499B /* libPods-WealthNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +92,8 @@
 			children = (
 				15026D891D309CA300C2AE94 /* WealthNetwork */,
 				15026D881D309CA300C2AE94 /* Products */,
+				5742868734595351D06E6707 /* Pods */,
+				1C31A70194CB649061DFF678 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +110,9 @@
 			children = (
 				15026D8D1D309CA300C2AE94 /* AppDelegate.h */,
 				15026D8E1D309CA300C2AE94 /* AppDelegate.m */,
-				15026DA41D30A55700C2AE94 /* Controller */,
-				15026DA51D30A55700C2AE94 /* Model */,
-				15026DA71D30A55700C2AE94 /* View */,
+				150E93771D7DB99500B42574 /* Home */,
+				150E93871D7DB99500B42574 /* Left */,
+				150E93C21D7DC6C900B42574 /* Base */,
 				15026DA61D30A55700C2AE94 /* Other */,
 				15026D8A1D309CA300C2AE94 /* Supporting Files */,
 			);
@@ -95,29 +127,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		15026DA41D30A55700C2AE94 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				15026DAB1D30A57F00C2AE94 /* ViewController.h */,
-				15026DAC1D30A57F00C2AE94 /* ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		15026DA51D30A55700C2AE94 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				15026DC01D30B3DE00C2AE94 /* Friend.h */,
-				15026DC11D30B3DE00C2AE94 /* Friend.m */,
-				15026DC21D30B3DE00C2AE94 /* FriendGroup.h */,
-				15026DC31D30B3DE00C2AE94 /* FriendGroup.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		15026DA61D30A55700C2AE94 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				150E93E01D7DC70C00B42574 /* UIView+Extension.h */,
+				150E93E11D7DC70C00B42574 /* UIView+Extension.m */,
+				150E93711D7DADC100B42574 /* PrefixHeader.pch */,
 				15026DBE1D30B36900C2AE94 /* friends.plist */,
 				15026D991D309CA300C2AE94 /* Assets.xcassets */,
 				15026D9B1D309CA300C2AE94 /* LaunchScreen.storyboard */,
@@ -127,17 +142,156 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		15026DA71D30A55700C2AE94 /* View */ = {
+		150E93771D7DB99500B42574 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				15026DB11D30A68800C2AE94 /* CollectionViewCell.h */,
-				15026DB21D30A68800C2AE94 /* CollectionViewCell.m */,
-				15026DB31D30A68800C2AE94 /* CollectionViewCell.xib */,
-				15026DB91D30AA5200C2AE94 /* EditCollectionReusableView.h */,
-				15026DBA1D30AA5200C2AE94 /* EditCollectionReusableView.m */,
-				15026DBB1D30AA5200C2AE94 /* EditCollectionReusableView.xib */,
+				150E93781D7DB99500B42574 /* Controller */,
+				150E937B1D7DB99500B42574 /* Model */,
+				150E93801D7DB99500B42574 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		150E93781D7DB99500B42574 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				150E93791D7DB99500B42574 /* ViewController.h */,
+				150E937A1D7DB99500B42574 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		150E937B1D7DB99500B42574 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				150E937C1D7DB99500B42574 /* Friend.h */,
+				150E937D1D7DB99500B42574 /* Friend.m */,
+				150E937E1D7DB99500B42574 /* FriendGroup.h */,
+				150E937F1D7DB99500B42574 /* FriendGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		150E93801D7DB99500B42574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150E93811D7DB99500B42574 /* CollectionViewCell.h */,
+				150E93821D7DB99500B42574 /* CollectionViewCell.m */,
+				150E93831D7DB99500B42574 /* CollectionViewCell.xib */,
+				150E93841D7DB99500B42574 /* EditCollectionReusableView.h */,
+				150E93851D7DB99500B42574 /* EditCollectionReusableView.m */,
+				150E93861D7DB99500B42574 /* EditCollectionReusableView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		150E93871D7DB99500B42574 /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				150E93951D7DB9C400B42574 /* Controller */,
+				150E93991D7DB9C400B42574 /* View */,
+				150E93981D7DB9C400B42574 /* Model */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+		150E93951D7DB9C400B42574 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				150E93961D7DB9C400B42574 /* LeftViewController.h */,
+				150E93971D7DB9C400B42574 /* LeftViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		150E93981D7DB9C400B42574 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		150E93991D7DB9C400B42574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150E93A11D7DBA4400B42574 /* ProfileHeadView.h */,
+				150E93A21D7DBA4400B42574 /* ProfileHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		150E93C21D7DC6C900B42574 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				150E93C31D7DC6C900B42574 /* BaseController */,
+				150E93C61D7DC6C900B42574 /* Model */,
+				150E93D01D7DC6C900B42574 /* Setting */,
+				150E93D11D7DC6C900B42574 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		150E93C31D7DC6C900B42574 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				150E93C41D7DC6C900B42574 /* BaseTableViewController.h */,
+				150E93C51D7DC6C900B42574 /* BaseTableViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		150E93C61D7DC6C900B42574 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				150E93C71D7DC6C900B42574 /* Base */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		150E93C71D7DC6C900B42574 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				150E93C81D7DC6C900B42574 /* ProfileCellArrowModel.h */,
+				150E93C91D7DC6C900B42574 /* ProfileCellArrowModel.m */,
+				150E93CA1D7DC6C900B42574 /* ProfileCellGroupModel.h */,
+				150E93CB1D7DC6C900B42574 /* ProfileCellGroupModel.m */,
+				150E93CC1D7DC6C900B42574 /* ProfileCellModel.h */,
+				150E93CD1D7DC6C900B42574 /* ProfileCellModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		150E93D01D7DC6C900B42574 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		150E93D11D7DC6C900B42574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150E93D21D7DC6C900B42574 /* ProfileCell.h */,
+				150E93D31D7DC6C900B42574 /* ProfileCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C31A70194CB649061DFF678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4259DC17188B63E61BC5701 /* libPods-WealthNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5742868734595351D06E6707 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B26DF141F21CE96235C29F85 /* Pods-WealthNetwork.debug.xcconfig */,
+				F24EE00E51E416D56410C1FF /* Pods-WealthNetwork.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15026DA11D309CA300C2AE94 /* Build configuration list for PBXNativeTarget "WealthNetwork" */;
 			buildPhases = (
+				2A253D8A7B9AE2E8B01ACBAA /* [CP] Check Pods Manifest.lock */,
 				15026D831D309CA300C2AE94 /* Sources */,
 				15026D841D309CA300C2AE94 /* Frameworks */,
 				15026D851D309CA300C2AE94 /* Resources */,
+				143A9008BB90DF6478EDE039 /* [CP] Embed Pods Frameworks */,
+				648352E6D7FA673B7A2316EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,14 +355,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				15026D9D1D309CA300C2AE94 /* LaunchScreen.storyboard in Resources */,
+				150E93921D7DB99500B42574 /* EditCollectionReusableView.xib in Resources */,
 				15026D9A1D309CA300C2AE94 /* Assets.xcassets in Resources */,
-				15026DB51D30A68800C2AE94 /* CollectionViewCell.xib in Resources */,
-				15026DBD1D30AA5200C2AE94 /* EditCollectionReusableView.xib in Resources */,
+				150E93901D7DB99500B42574 /* CollectionViewCell.xib in Resources */,
 				15026DBF1D30B36900C2AE94 /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		143A9008BB90DF6478EDE039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WealthNetwork/Pods-WealthNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A253D8A7B9AE2E8B01ACBAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		648352E6D7FA673B7A2316EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WealthNetwork/Pods-WealthNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15026D831D309CA300C2AE94 /* Sources */ = {
@@ -213,13 +418,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				15026D981D309CA300C2AE94 /* WealthNetwork.xcdatamodeld in Sources */,
-				15026DC41D30B3DE00C2AE94 /* Friend.m in Sources */,
-				15026DB41D30A68800C2AE94 /* CollectionViewCell.m in Sources */,
+				150E938D1D7DB99500B42574 /* Friend.m in Sources */,
+				150E938E1D7DB99500B42574 /* FriendGroup.m in Sources */,
+				150E938C1D7DB99500B42574 /* ViewController.m in Sources */,
+				150E93A31D7DBA4400B42574 /* ProfileHeadView.m in Sources */,
 				15026D8F1D309CA300C2AE94 /* AppDelegate.m in Sources */,
-				15026DC51D30B3DE00C2AE94 /* FriendGroup.m in Sources */,
 				15026D8C1D309CA300C2AE94 /* main.m in Sources */,
-				15026DAD1D30A57F00C2AE94 /* ViewController.m in Sources */,
-				15026DBC1D30AA5200C2AE94 /* EditCollectionReusableView.m in Sources */,
+				150E938F1D7DB99500B42574 /* CollectionViewCell.m in Sources */,
+				150E93E21D7DC70C00B42574 /* UIView+Extension.m in Sources */,
+				150E93D81D7DC6C900B42574 /* BaseTableViewController.m in Sources */,
+				150E939C1D7DB9C400B42574 /* LeftViewController.m in Sources */,
+				150E93DB1D7DC6C900B42574 /* ProfileCellModel.m in Sources */,
+				150E93DD1D7DC6C900B42574 /* ProfileCell.m in Sources */,
+				150E93D91D7DC6C900B42574 /* ProfileCellArrowModel.m in Sources */,
+				150E93DA1D7DC6C900B42574 /* ProfileCellGroupModel.m in Sources */,
+				150E93911D7DB99500B42574 /* EditCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,10 +535,12 @@
 		};
 		15026DA21D309CA300C2AE94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26DF141F21CE96235C29F85 /* Pods-WealthNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WealthNetwork/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = WealthNetwork/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.ChinaArJun.WealthNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -334,10 +549,12 @@
 		};
 		15026DA31D309CA300C2AE94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24EE00E51E416D56410C1FF /* Pods-WealthNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WealthNetwork/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = WealthNetwork/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.ChinaArJun.WealthNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +580,7 @@
 				15026DA31D309CA300C2AE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

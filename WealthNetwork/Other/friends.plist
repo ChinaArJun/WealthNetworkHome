@@ -113,16 +113,6 @@
 				<key>vip</key>
 				<integer>1</integer>
 			</dict>
-			<dict>
-				<key>icon</key>
-				<string>006.png</string>
-				<key>intro</key>
-				<string></string>
-				<key>name</key>
-				<string>初中好友-3</string>
-				<key>vip</key>
-				<integer>0</integer>
-			</dict>
 		</array>
 		<key>name</key>
 		<string>加号</string>
